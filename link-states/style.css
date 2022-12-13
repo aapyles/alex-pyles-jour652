@@ -1,0 +1,8 @@
+a.nav {
+  color:blue;
+  font-size: 18px;
+}
+
+a.nav:hover {
+  color:red;
+}
