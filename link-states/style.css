@@ -1,3 +1,16 @@
+.container {
+  width: 80%;
+  max-width:950px;
+  margin: 0 auto;
+  padding-top:30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* This section of code deals with link states */
+
 a.nav {
   color:blue;
   font-size: 18px;
@@ -6,3 +19,31 @@ a.nav {
 a.nav:hover {
   color:red;
 }
+
+/* End link states */
+
+/* This section of code deals with the headline area */
+
+.headline {
+  line-height:30px;
+}
+
+.label {
+  color: crimson;
+  font-size: 1em;
+  padding-left: 25px;
+  margin: 0;
+  padding: 0 0 0 50px;
+  border: 0;
+}
+
+.title {
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 900;
+  font-size: 3em;
+  margin: 0;
+  padding: 0 0 0 50px;
+  border: 0;
+}
+
+/* End headline area */
